@@ -28,7 +28,7 @@ Edit `src/data/portfolio.js` for profile information, proof points, projects, sk
 
 The latest user-supplied portfolio brief supersedes the original PDF for current role, dates, skills and metrics. It adds Akalinfo and Agoda, updates HealthPlix employment dates, and supplies Flyhomes performance figures. **The downloadable `public/Wasim_Akram_Resume.pdf` remains the originally supplied PDF and needs a revised copy to match the new content before external publication.** The original PDF also includes phone and reference contact information; replace `profile.resume` with an approved public version if desired.
 
-- `profile.headshot`: portrait asset displayed in the navigation and footer logo, with a monogram fallback. The homepage hero uses the engineering note.
+- `profile.headshot`: portrait asset displayed in the navigation and footer logo, with a monogram fallback. The homepage hero highlights the IIT Roorkee MCA (class of 2012) with an animated CSS 3D alumni card and an original, stylized campus illustration. It supports pointer tilt, pause/play and reduced motion, and pauses when offscreen or the tab is hidden. The alumni badge links to the education section. The illustration is decorative and is not an official institute logo.
 - `profile.teamPhoto`: optional approved real team photo, shown in Services when supplied.
 - Project `demo` URLs are empty until real URLs are supplied; no placeholder links render. GitHub profile and repository links have been removed.
 - No fictional team photos, product screenshots, or AI demo are presented. A document-assistant demo can be added once a working demo and actual screenshots exist.

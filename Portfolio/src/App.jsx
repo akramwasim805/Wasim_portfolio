@@ -1,4 +1,4 @@
-import EngineeringScene from './components/EngineeringScene'
+import IITRoorkeeScene from './components/IITRoorkeeScene'
 import useScrollReveal from './hooks/useScrollReveal'
 import BrandLogo from './components/BrandLogo'
 import { useEffect, useRef, useState } from 'react'
@@ -18,8 +18,8 @@ import './App.css'
 function Hero() {
   return <section id="home" className="hero page-shell">
     <div className="hero-top"><p className="eyebrow"><span className="accent-line" /> BACKEND ENGINEERING & DISTRIBUTED SYSTEMS</p><span className="hero-location">{profile.location}</span></div>
-    <div className="hero-layout"><div className="hero-copy"><p className="hero-name">Wasim Akram / Technical Lead</p><h1>Reliable systems.<br /><span>From idea to impact.</span></h1><p className="hero-introduction">{profile.introduction}</p><div className="hero-actions"><a href="#case-studies" className="button button-primary">View case studies <Arrow /></a><a href="#/contact" className="button button-secondary">Discuss a project <Arrow diagonal /></a></div><SocialLinks /></div>
-    <EngineeringScene /></div>
+    <div className="hero-layout"><div className="hero-copy"><a className="hero-education" href="#education"><span aria-hidden="true">✧</span> IIT ROORKEE ALUMNUS <span className="hero-education-year">MCA ’12 <span aria-hidden="true">↗</span></span></a><p className="hero-name">Wasim Akram / Technical Lead</p><h1>Reliable systems.<br /><span>From idea to impact.</span></h1><p className="hero-introduction">{profile.introduction}</p><div className="hero-actions"><a href="#case-studies" className="button button-primary">View case studies <Arrow /></a><a href="#/contact" className="button button-secondary">Discuss a project <Arrow diagonal /></a></div><SocialLinks /></div>
+    <IITRoorkeeScene /></div>
     <div className="hero-bottom proof-points">{proofPoints.map(point => <div className="hero-stat" key={point.value}><strong>{point.value}</strong><span>{point.caption}</span></div>)}</div>
   </section>
 }
