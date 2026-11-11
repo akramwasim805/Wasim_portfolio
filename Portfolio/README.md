@@ -1,6 +1,6 @@
 # Wasim Akram · Portfolio
 
-React, Vite, JavaScript and Tailwind CSS. Dark, responsive portfolio with reusable components and local assets.
+A fully responsive portfolio showcasing Wasim Akram’s 13+ years in software engineering and technical leadership. Built with React, Vite and Tailwind CSS, it features project case studies, measurable results, searchable skills, career history, services, a downloadable resume and a contact form, all presented in a sleek, modern dark theme.
 
 ## Run
 
